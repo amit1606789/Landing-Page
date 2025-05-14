@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* About Section Styles */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about ul {
+    list-style: none;
+    font-size: 1.2em;
+}
+
+#about li {
+    margin-bottom: 10px;
+}
+
+/* Contact Form Styles */
+#contact {
+    background-color: #e2e2e2;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#contact input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border: 2px solid #ddd;
+}
+
+#contact button {
+    background-color: #0044cc;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #003399;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-media {
+    margin-bottom: 10px;
+}
+
+footer .social-media a {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    color: #ffcc00;
+}

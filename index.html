@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luxury apartments in Greater Noida. Explore premium 2, 3, and 4 BHK units at Sobha Greater Noida.">
+    <meta name="keywords" content="Sobha Greater Noida, luxury apartments, real estate, Greater Noida apartments, 2 BHK, 3 BHK, 4 BHK">
+    <meta name="author" content="Ashomessolutions">
+    <title>Sobha Greater Noida - Luxury Apartments</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sobha Greater Noida</h1>
+            <p>Discover Luxury Apartments in Sector 36, Greater Noida</p>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About the Project</h2>
+        <p>Located in Sector 36, Greater Noida, this premium project offers luxurious 2, 3, and 4 BHK apartments with spacious floor plans.</p>
+        <ul>
+            <li><strong>Location:</strong> Sector 36, Greater Noida</li>
+            <li><strong>Plot Area:</strong> 3.5 Acres</li>
+            <li><strong>Total Units:</strong> 340</li>
+            <li><strong>Unit Sizes:</strong> 2 BHK (1200 sqft), 3 BHK (1500 & 1800 sqft), 4 BHK (2200 sqft)</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="tel" id="phone" placeholder="Your Phone" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-media">
+            <a href="https://www.youtube.com/channel/UCiCMyEXMLfkv1TBGV6S0gzQ" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2025 <a href="http://ashomessolutions.com" target="_blank">ashomessolutions.com</a>. All rights reserved. | Sector 36, Greater Noida</p>
+    </footer>
+
+    <script>
+        function validateForm() {
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const phone = document.getElementById("phone").value.trim();
+            if (!name || !email || !phone) {
+                alert("Please fill in all required fields.");
+                return false;
+            }
+            alert("Thank you for your inquiry!");
+            return true;
+        }
+    </script>
+</body>
+</html>
